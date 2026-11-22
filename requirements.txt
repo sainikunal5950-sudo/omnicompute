@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+websockets
+psutil
+pydantic
+pytest
+httpx
+numpy
+requests
+matplotlib
+
