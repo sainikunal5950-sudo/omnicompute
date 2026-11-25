@@ -17,7 +17,7 @@ Each module is built, tested, and verified independently before proceeding to th
   - Implement `coordinator/main.py` (FastAPI app, WebSocket endpoint for workers, REST API for jobs and cluster status).
   - Unit tests: `tests/test_m2_coordinator.py`.
 
-- [ ] **Module 3: Worker Agent and Hardware Detection**
+- [x] **Module 3: Worker Agent and Hardware Detection**
   - Implement `worker/hardware.py` (CPU, RAM, and GPU detection with fallback to CPU).
   - Implement `worker/agent.py` (WebSocket client, registration, connection loop).
   - Unit tests: `tests/test_m3_worker.py`.
