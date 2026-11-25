@@ -7,12 +7,12 @@ Each module is built, tested, and verified independently before proceeding to th
 
 ## Module Checklist
 
-- [ ] **Module 1: Foundation and Protocol**
+- [x] **Module 1: Foundation and Protocol**
   - Define `shared/protocol.py` (Pydantic models for `register`, `heartbeat`, `task`, `result`, job submission, and cluster state).
   - Define `shared/config.py` (default ports, timeouts, thresholds, and limits).
   - Unit tests: `tests/test_m1_protocol.py`.
 
-- [ ] **Module 2: Coordinator Core and Database**
+- [x] **Module 2: Coordinator Core and Database**
   - Implement `coordinator/db.py` (SQLite schema initialization, connection management, worker/job/task CRUD).
   - Implement `coordinator/main.py` (FastAPI app, WebSocket endpoint for workers, REST API for jobs and cluster status).
   - Unit tests: `tests/test_m2_coordinator.py`.
